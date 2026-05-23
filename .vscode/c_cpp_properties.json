@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "WSL",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "//wsl$/Ubuntu/usr/bin/g++",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "//wsl$/Ubuntu/usr/include",
+                "//wsl$/Ubuntu/usr/include/c++/15",
+                "//wsl$/Ubuntu/usr/include/x86_64-linux-gnu/c++/15",
+                "//wsl$/Ubuntu/usr/lib/gcc/x86_64-linux-gnu/15/include"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "//wsl$/Ubuntu/usr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
